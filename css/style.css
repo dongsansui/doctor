@@ -1,0 +1,137 @@
+body {
+  width: 100%;
+  font-size: 0.12rem; }
+
+body, html {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%; }
+
+.header {
+  height: 0.4rem;
+  font-size: 0.2rem;
+  position: relative; }
+  .header .back {
+    position: absolute;
+    left: 0.15rem;
+    top: 0.1rem;
+    font-size: 0.16rem;
+    color: #666666; }
+  .header h1 {
+    line-height: 0.4rem;
+    text-align: center;
+    font-size: 0.17rem;
+    font-weight: normal; }
+
+section {
+  flex: 1;
+  overflow-y: scroll;
+  background: #eeeeee; }
+  section .banner {
+    height: 1.9rem;
+    width: 100%;
+    background: url("../img/banner.jpg");
+    position: relative;
+    background-size: 100% auto;
+    padding: 0.07rem 0; }
+    section .banner .iconfon {
+      position: absolute;
+      left: 0.15rem;
+      top: 0.2rem;
+      color: #ffffff; }
+      section .banner .iconfon .fz {
+        font-size: 0.18rem; }
+    section .banner .right {
+      right: 0.1rem;
+      top: 0.1rem;
+      position: absolute; }
+      section .banner .right em {
+        font-style: normal;
+        font-size: 0.2rem;
+        color: #ffffff; }
+    section .banner .bgImg {
+      width: 0.9rem;
+      height: 0.9rem;
+      margin: 0 auto;
+      overflow: hidden;
+      border-radius: 100%; }
+      section .banner .bgImg img {
+        width: 100%;
+        height: 100%; }
+  section .connt {
+    margin-top: 0.1rem;
+    line-height: 0.24rem;
+    text-align: center; }
+    section .connt h3, section .connt p {
+      color: #ffffff; }
+  section .nav {
+    display: flex;
+    padding: 0.15rem 0;
+    background: #ffffff; }
+    section .nav dl {
+      flex: 1;
+      text-align: center; }
+      section .nav dl dt {
+        width: 0.65rem;
+        height: 0.65rem;
+        margin: 0 auto;
+        line-height: 0.65rem;
+        text-align: center;
+        border-radius: 100%; }
+        section .nav dl dt span {
+          color: #ffffff;
+          font-size: 0.3rem;
+          vertical-align: middle; }
+      section .nav dl .bg-red {
+        background: #fc6e51; }
+      section .nav dl .bg-blue {
+        background: #4fc1e9; }
+      section .nav dl dd {
+        margin-top: 0.1rem; }
+  section .art-title {
+    padding-left: 0.1rem;
+    color: #37bc9b;
+    height: 0.3rem;
+    line-height: 0.3rem; }
+    section .art-title h4 {
+      height: 0.3rem;
+      font-weight: normal;
+      font-size: 0.14rem; }
+  section .art-list {
+    background: #ffffff; }
+    section .art-list li {
+      line-height: 0.24rem;
+      padding: 0.07rem 0.1rem;
+      border-bottom: 1px #ccc solid;
+      position: relative;
+      font-size: 0.14rem; }
+    section .art-list span {
+      position: absolute;
+      right: 0.2rem; }
+      section .art-list span em {
+        font-size: 0.14rem;
+        padding-left: 0.06rem; }
+      section .art-list span .bg-red {
+        color: red; }
+
+.footer {
+  background: #ffffff; }
+  .footer ul {
+    display: flex; }
+    .footer ul li {
+      flex: 1;
+      text-align: center;
+      line-height: 0.4rem;
+      font-size: 0.16rem;
+      color: #37bc9b; }
+      .footer ul li:nth-child(1) {
+        background: #37bc9b;
+        color: #ffffff; }
+      .footer ul li span {
+        font-size: 0.16rem;
+        padding-right: 0.05rem; }
+      .footer ul li em {
+        font-style: normal; }
+
+/*# sourceMappingURL=style.css.map */

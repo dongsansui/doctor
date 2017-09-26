@@ -1,0 +1,132 @@
+body
+  width: 100%
+  font-size: .12rem
+body,html
+  display: flex
+  flex-direction: column
+  width: 100%
+  height: 100%
+.header
+  height: .4rem
+  font-size: .2rem
+  position: relative
+  .back
+    position: absolute
+    left: .15rem
+    top: .1rem
+    font-size: .16rem
+    color: #666666
+  h1
+    line-height: .4rem
+    text-align: center
+    font-size: .17rem
+    font-weight: normal
+section
+  flex: 1
+  overflow-y: scroll
+  background: #eeeeee
+  .banner
+    height: 1.9rem
+    width: 100%
+    background: url("../img/banner.jpg")
+    position: relative
+    background-size: 100% auto
+    padding: .07rem 0
+    .iconfon
+      position: absolute
+      left: .15rem
+      top: .2rem
+      color: #ffffff
+      .fz
+        font-size: .18rem
+    .right
+      right: .1rem
+      top: .1rem
+      position: absolute
+      em
+        font-style: normal
+        font-size: .20rem
+        color: #ffffff
+    .bgImg
+      width: .9rem
+      height: .9rem
+      margin: 0 auto
+      overflow: hidden
+      border-radius: 100%
+      img
+        width: 100%
+        height: 100%
+  .connt
+    margin-top: .1rem
+    line-height: .24rem
+    text-align: center
+    h3,p
+      color: #ffffff
+  .nav
+    display: flex
+    padding: .15rem 0
+    background: #ffffff
+    dl
+      flex: 1
+      text-align: center
+      dt
+        width: .65rem
+        height: .65rem
+        margin: 0 auto
+        line-height: .65rem
+        text-align: center
+        border-radius: 100%
+        span
+          color: #ffffff
+          font-size: .3rem
+          vertical-align: middle
+      .bg-red
+        background: #fc6e51
+      .bg-blue
+        background: #4fc1e9
+      dd
+        margin-top: .1rem
+  .art-title
+    padding-left: .1rem
+    color: #37bc9b
+    height: .3rem
+    line-height: .3rem
+    h4
+      height: .3rem
+      font-weight: normal
+      font-size: .14rem
+  .art-list
+      background: #ffffff
+      li
+        line-height: .24rem
+        padding: .07rem .1rem
+        border-bottom: 1px #ccc solid
+        position: relative
+        font-size: .14rem
+      span
+        position: absolute
+        right: .2rem
+        em
+          font-size: .14rem
+          padding-left: .06rem
+        .bg-red
+          color: red
+
+.footer
+  background: #ffffff
+  ul
+    display: flex
+    li
+      flex: 1
+      text-align: center
+      line-height: .4rem
+      font-size: .16rem
+      color: #37bc9b
+      &:nth-child(1)
+        background: #37bc9b
+        color: #ffffff
+      span
+        font-size: .16rem
+        padding-right: .05rem
+      em
+        font-style: normal
